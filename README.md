@@ -2,13 +2,34 @@ Predict the future of your DECam PSF...
 
 # Installation
 
-TBD
+Add the executable to your path:
+
+```
+> export $PATH=$PATH_TO_FORTUNE/bin:$PATH
+```
 
 # Execution
 
 Print a help message and exit:
 ```
 > fortune --help
+usage: fortune [-h] -p PSF -b {u,g,r,i,z,Y} -a AIRMASS [-f FUTURE] [-m MAX]
+               [-e] [-V]
+
+Predict the future of your PSF...
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PSF, --psf PSF     current FWHM (arcsec)
+  -b {u,g,r,i,z,Y}, --band {u,g,r,i,z,Y}
+                        current DECam band
+  -a AIRMASS, --airmass AIRMASS
+                        current airmass (secz)
+  -f FUTURE, --future FUTURE
+                        future airmass (secz)
+  -m MAX, --max MAX     maximum acceptable FWHM (arcsec)
+  -e, --ecs             for ECS only!!!
+  -V, --version         print version and exit.
 ```
 
 Create a grid of predicted PSFs based on the current psf (`--psf`), band (`--band`), and airmass (`--airmass`):
