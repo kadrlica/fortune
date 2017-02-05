@@ -75,4 +75,8 @@ r-band :   1.08   1.20   1.32   1.43   1.54   1.64
 i-band :   1.04   1.16   1.27   1.38   1.48   1.57
 z-band :   1.00   1.12   1.23   1.33   1.43   1.52
 Y-band :   0.99   1.10   1.21   1.31   1.41   1.50
-``
+```
+
+# Credits
+
+Marisa March, Ting Li, Alex Drlica-Wagner
