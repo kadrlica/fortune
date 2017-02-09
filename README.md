@@ -76,4 +76,9 @@ r-band :   1.06   1.18   1.18   1.29   1.40   1.50   1.60
 i-band :   1.01   1.13   1.13   1.24   1.34   1.44   1.54
 z-band :   0.98   1.09   1.09   1.20   1.30   1.39   1.49
 Y-band :   0.95   1.07   1.07   1.17   1.27   1.36   1.45
-``
+```
+
+# Credits
+
+Marisa March, Ting Li, Alex Drlica-Wagner, and the faceless masses of DES...
+
